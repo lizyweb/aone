@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="Aone Travels is your trusted partner for seamless journeys to Makkah and Madina, offering expertly crafted travel packages for a spiritually enriching pilgrimage experience. Discover convenience, comfort, and personalized service with us.">
+    <meta name="keywords" content="Makkah, Madina, travel agency, pilgrimage, spiritual journey, religious travel, Aone Travels">
+  
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@YourTwitterHandle">
+    <meta name="twitter:title" content="Aone Travels">
+    <meta name="twitter:description" content="Aone Travels is your premier destination for seamless and spiritually enriching journeys to Makkah and Madina, offering expertly crafted travel packages that cater to your religious and cultural needs.">
+    <meta name="twitter:image" content="URL_TO_IMAGE">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Aone Travels">
+    <meta property="og:description" content="Aone Travels is your premier destination for seamless and spiritually enriching journeys to Makkah and Madina, offering expertly crafted travel packages that cater to your religious and cultural needs.">
+    <meta property="og:image" content="URL_TO_IMAGE">
+    <meta property="og:url" content="URL_TO_YOUR_WEBSITE">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Aone Travels">
+
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia|Lato">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css'>
+
+    <!-- Assets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/animate/animate.min.css">
+    <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/slick/slick.css">
+    <link rel="stylesheet" href="assets/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="assets/aos/aos.css">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Aone Travels</title>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border" role="status" style="width: 3rem; height: 3rem;"></div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid text-white d-none d-lg-flex topbar" id="home" style="background-color: var(--brand);">
+        <div class="container py-3">
+            <div class="d-flex align-items-center">
+                <!-- <small class="ms-4"><i class="fa fa-envelope me-3"></i><a href="mailto:Template@gmail.com" style="color: white;">Template.com</a></small> -->
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i><a href="tel:8825785472" style="color: white;">+91 88257 85472</a></small>
+                <small class="ms-4"><i class="fa fa-phone-alt me-3"></i><a href="tel:8148293746" style="color: white;">+91 81482 93746</a></small>
+                <!-- <div class="ms-auto d-flex align-items-center">
+                    <div class="ms-3 d-flex icons">
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-sm-square btn-light rounded-circle ms-2" href="" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Main Header Start -->
+    <div class="sticky-top">
+        <div class="main-header-area" style="height: 80px;">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container main-header-start">
+                    <nav class="classy-navbar justify-content-between" id="robertoNav">
+
+                        <a class="nav-brand" href="index.html"><img src="img/logo1.png" height="70px"  alt=""></a>
+
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <div class="classy-menu">
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+                            <div class="classynav">
+                                <ul id="nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="#about">About Us</a></li>
+                                    <li><a href="#">Services</a>
+                                        <ul class="dropdown dropdown-laptop">
+                                            <li><a href="hajj.html">Hajj and Umrah Packages</a></li>
+                                            <li><a href="visa.html">Visa Assistance</a></li>
+                                            <li><a href="accommodation.html">Accommodation Arrangements</a></li>
+                                            <li><a href="spiritual.html">Spiritual Guidance</a></li>
+                                            <li><a href="transportation.html">Transportation Services</a></li>
+                                            <li><a href="educational.html">Educational Workshops</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="faq.html">FAQ</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+
+                                <!-- Book Now -->
+                                <div class="book-now-btn ml-3 ml-lg-5">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">BOOKING NOW</a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Area End -->
+
+
+    <section id="home-1">
+        <div class="container container-1">
+            <div class="row">
+                <div class="slide col-12 d-flex align-items-center justify-content-center">
+                    <video autoplay muted loop id="video-background">
+                        <source src="img/makkah.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="row slide-main-content">
+                        <div class="slide-img col-lg-6"><img src="img/home.png" alt="" class="img-fluid home-logo"></div>
+                        <div class="slide-content col-lg-6">
+                            <h6 class="text-white">WELCOME TO AONE TRAVELS</h6>
+                            <h1 class="pt-3 text-white">Your Gateway to Unforgettable Journeys</h1>
+                            <p class="pt-2 text-white">Embark on a transformative pilgrimage with Aone Travels, your premier Hajj and Umrah travel partner. Our commitment is to provide you with a seamless and enriching experience as you embark on sacred journeys.</p>
+                            <div class="book-now-btn pt-4">
+                                <a class="" href="#services" style="padding: 13px 30px;">DISCOVER MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+     <!-- Facts Start -->
+     <div class="container-fluid facts-1 py-5 pt-lg-0">
+        <div class="container py-5 pt-lg-0">
+            <div class="row gx-0 shadow">
+                <div class="shadow col-lg-3  wow fadeIn" data-wow-delay="0.1s">
+                        
+                    
+                        <div class="count-content">
+                            <!-- <span class="counterUp" data-count="72">0K+</span> -->
+                            <h1 class="count">7K+</h1>
+                            <h6>HAPPY TRAVELERS</h6>
+                        </div>
+                    
+                        
+                </div>
+                <div class="shadow col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                        
+                    
+                        <div class="count-content">
+                            <h1 class="count">98%</h1>
+                            <h6>SUCCESS TRAVELER</h6>
+                        </div>
+                    
+                       
+                </div>
+                <div class="shadow col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                        
+                    
+                        <div class="count-content">
+                            <h1 class="count">4.9</h1>
+                            <h6>RATING CLIENTS</h5>
+                        </div>
+                    
+
+                </div>
+                <div class="shadow col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                        
+                    
+                        <div class="count-content">
+                            <h1 class="count">10+</h1>
+                            <h6>YEARS OF EXPERIENCE</h6>
+                        </div>
+                    
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Facts End -->
+
+     <!-- About Start -->
+     <div class="container-xxl py-5 mb-5" id="about">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="position-relative overflow-hidden pt-5 h-100" style="min-height: 400px;">
+                        <img class="position-absolute w-100 h-100 img-fluid" src="img/abt-1.avif" alt="" style="object-fit: cover; border-radius: 10px;">
+                        <img class="position-absolute shadow bottom-0 end-0 bg-white" src="img/abt-2.jpg" alt="" style="width: 200px; height: 200px; border-radius: 10px;object-fit: cover;">
+                   <div class="img3">
+                            <h1>10+</h1>
+                            <h6>Years of Experience</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <h6 class="text-brand text-uppercase mb-2">WHO WE ARE</h6>
+                        <h1 class="about-head display-6 mb-4">Aone Travels: Your Gateway to a Sacred Journey</h1>
+                        <p>Embark on a transformative pilgrimage with Aone Travels, your trusted partner for Hajj and Umrah services. Our dedicated team is committed to providing a seamless and enriching experience as you journey to the holy cities of Mecca and Medina. With our comprehensive range of services, including Hajj and Umrah packages, visa assistance, accommodation arrangements, spiritual guidance, transportation services, and educational workshops, we ensure that your pilgrimage is comfortable, hassle-free, and spiritually fulfilling. Let us guide you on this sacred journey of faith, devotion, and self-discovery.</p>
+                        
+                        <hr>
+                        <div class="row g-2 mb-4 pb-2">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-brand me-2"></i>
+                                Comprehensive Packages
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-brand me-2"></i>Visa Assistance
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-brand me-2"></i>Comfortable Accommodations
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-brand me-2"></i>Spiritual Guidance
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-brand me-2"></i>Reliable Transportation
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-brand me-2"></i>Educational Workshops
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row g-4">
+                            <div class="book-now-btn pt-4">
+                                <a class="" href="about.html" style="padding: 13px 30px;">DISCOVER MORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+
+
+    <!-- Image section -->
+    <section id="call-to-action" class="wow fadeIn mb-5">
+        <div class="container text-center img-content">
+          <h6 class="pb-3 text-white">DISCOVER MORE</h6>
+          <h3>Book Your Sacred Journey Today</h3>
+          <p>Experience the spiritual journey of a lifetime with Aone Travels. Book now and embark on your pilgrimage to the holy cities of Mecca and Medina.</p>
+          <div class="book-now-btn pt-4">
+            <a class="" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding: 13px 30px;">BOOKING NOW</a>
+          </div>
+        </div>
+      </section>
+
+
+    <!-- Start Featured Product -->
+    <section id="services">
+        <div class="container main-card py-5">
+            <div class="row text-center py-3">
+                <div class="col-lg-6 m-auto">
+                    <h1 class="h1 mb-3">Our Special Hajj & Umrah Packages</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+
+                <div class="col-12 col-md-4 mb-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="card h-100">
+                        <a href="hajj.html">
+                            <img src="img/pack-1.jpg" class="card-img-top" alt="..." height="350px" style="object-fit: cover;">
+                        </a>
+                        <div class="card-body px-4">
+                            <ul class="list-unstyled d-flex justify-content-between py-2">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <!-- <li class="text-muted text-right">$240.00</li> -->
+                            </ul>
+                            <a href="" class="h5 text-decoration-none text-dark">Exclusive Umrah Package</a>
+                            <hr style="border: 1px dashed gray; background-color: white;">
+
+                            <!-- <p class="pro-cnt">
+                                Hayat Regency ( 14 nights )</p>
+                            <hr>
+                            <p class="pro-cnt">
+                                Saudi Airlines</p>
+                            <hr> -->
+                            <p class="pro-cnt">
+                                ₹ 85,000</p>
+
+                            <div class="pro-btn">
+                                <div class="book-now">
+                                    <a href="tel:8825785472">+91 88257 85472</a>
+                                </div>
+                                <div class="book-now-btn">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding: 8px 20px;">BOOK NOW</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="card h-100">
+                        <a href="hajj.html">
+                            <img src="img/pack-2.jpg" class="card-img-top" alt="..." height="350px" style="object-fit: cover;">
+                        </a>
+                        <div class="card-body px-4">
+                            <ul class="list-unstyled d-flex justify-content-between py-2">
+                                <li>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                    <i class="text-warning fa fa-star"></i>
+                                </li>
+                                <!-- <li class="text-muted text-right">$240.00</li> -->
+                            </ul>
+                            <a href="" class="h5 text-decoration-none text-dark">Umrah Package</a>
+                            <hr style="border: 1px dashed gray; background-color: white;">
+
+                            <!-- <p class="pro-cnt">
+                                Hayat Regency ( 14 nights )</p>
+                            <hr>
+                            <p class="pro-cnt">
+                                Saudi Airlines</p>
+                            <hr> -->
+                            <p class="pro-cnt">
+                                ₹ 90,000</p>
+
+                            <div class="pro-btn">
+                                <div class="book-now">
+                                    <a href="tel:8825785472">+91 88257 85472</a>
+                                </div>
+                                <div class="book-now-btn">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding: 8px 20px;">BOOK NOW</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Product -->
+
+
+      <!-- Start Product Section -->
+		<div class="product-section pt-5 mt-5">
+			<div class="container-fluid">
+				<div class="row">
+
+					<!-- Start Column 1 -->
+					<div class="side-content col-md-12 col-lg-4 mb-5 mb-lg-0 px-5 pt-5">
+						<h2 class="mb-4">Why Choose Aone Travels for Your Pilgrimage?</h2>
+						<p class="mb-4">At Aone Travels, we understand the significance of your pilgrimage and strive to provide you with an unparalleled experience. With our unwavering commitment to excellence and dedication to customer satisfaction, here are just a few reasons why you should choose us:</p>
+                        <img class="side-img" src="img/why.jpg" alt="" width="100%">
+					</div> 
+					<!-- End Column 1 -->
+
+					<div class="row col-lg-8 g-4 ps-4">
+                        <!-- Start Column 2 -->
+					<div class="col-12 col-md-4 col-lg-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+						
+                            <div class="service-item position-relative">
+                              <div class="sub-ser d-flex">
+                                <div class="icon">
+                                    <i class="bi bi-star"></i>
+                                  </div>
+                                  <h3>Expertise and Experience</h3>
+                              </div>
+                              <hr>
+                              <p>With years of experience in the industry, our knowledgeable team has the expertise to ensure that your pilgrimage is seamless and hassle-free.</p>
+                              
+                            </div>
+					</div> 
+					<!-- End Column 2 -->
+
+					<!-- Start Column 3 -->
+					<div class="col-12 col-md-4 col-lg-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-item position-relative">
+                              <div class="sub-ser d-flex text-center">
+                                  <div class="icon">
+                                    <i class="bi bi-flag"></i>
+                                  </div>
+                                  <h3>Personalized Service</h3>
+                              </div>
+                              <hr>
+                              <p>We understand that each pilgrim is unique, which is why we offer personalized service tailored to your individual needs and preferences.</p>
+                              
+                            </div>
+					</div>
+					<!-- End Column 3 -->
+
+					<!-- Start Column 4 -->
+					<div class="col-12 col-md-4 col-lg-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-item position-relative">
+                              <div class="sub-ser d-flex">
+                                <div class="icon">
+                                    <i class="bi bi-back"></i>
+                                  </div>
+                                  <h3>Reliability and Trustworthiness</h3>
+                              </div>
+                              <hr>
+                              <p>You can trust Aone Travels to handle every aspect of your pilgrimage with professionalism, reliability, and integrity.</p>
+                             
+                            </div>
+					</div>
+					<!-- End Column 4 -->
+
+                    <!-- Start Column 5 -->
+					<div class="col-12 col-md-4 col-lg-6 mb-5 mb-md-0" data-aos="fade-up" data-aos-delay="100">
+                            <div class="service-item position-relative">
+                              <div class="sub-ser d-flex">
+                                  <div class="icon">
+                                    <i class="bi bi-map"></i>
+                                  </div>
+                                  <h3>Spiritual Guidance and Support</h3>
+                              </div>
+                              <hr>
+                              <p>Our experienced guides provide spiritual guidance and support throughout your journey, helping you make the most of this sacred experience.</p>
+                             
+                            </div>
+					</div>
+					<!-- End Column 5-->
+                    </div>
+
+				</div>
+			</div>
+		</div>
+		<!-- End Product Section -->
+
+        
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container-fluid">
+                <div class="text-center">
+                    <h5 class="section-title ff-secondary text-center text-brand fw-normal">Testimonials</h5>
+                    <h1 class="mb-5">Client Reviews</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                        <!-- <img class="test-img img-fluid flex-shrink-0 rounded-circle" src="img/img6.jpg" style="width: 80px; height: 80px;"> -->
+                        <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                        <p class="test-p text-center">Aone Travels made my pilgrimage an unforgettable experience. From visa assistance to spiritual guidance, every detail was meticulously taken care of. JazakAllah khair!</p>
+                        <div class="d-flex align-items-center text-center">
+                            
+                            <div>
+                                <h5 class="mb-1">- Fatima Ahmed</h5>
+                                <!-- <small>Profession</small> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                        <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                        <p class="test-p text-center">I couldn't have asked for a better service for my Umrah journey. Aone Travels exceeded my expectations in every aspect, and I am grateful for their dedication and support.</p>
+                        <div class="d-flex align-items-center text-center">
+                            
+                            <div>
+                                <h5 class="mb-1">- Mohammed Khan</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                        <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                        <p class="test-p text-center">Alhamdulillah, Aone Travels provided exceptional accommodation and transportation services during my Hajj. Their attention to detail and professionalism truly stood out.</p>
+                        <div class="d-flex align-items-center text-center">
+                            
+                            <div>
+                                <h5 class="mb-1">- Aisha Ali</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item bg-transparent border rounded p-4 col-md-12">
+                        <!-- <i class="fa fa-quote-left fa-2x text-primary mb-3"></i> -->
+                        <p class="test-p text-center">I highly recommend Aone Travels to anyone planning their pilgrimage. Their personalized approach and knowledgeable staff made my journey smooth and spiritually enriching.</p>
+                        <div class="d-flex align-items-center text-center">
+                            
+                            <div>
+                                <h5 class="mb-1">- Yusuf Abdullah</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Image section -->
+    <section id="call-to-action" class="wow fadeIn" style="background: linear-gradient(rgba(0, 90, 90, 0.5), rgba(0, 90, 90, 0.5)), url(img/cta-2.jpg) no-repeat center center; background-size: cover;">
+        <div class="container text-center img-content">
+            <h6 class="pb-3 text-white">DISCOVER MORE</h6>
+            <h3>Book Your Sacred Journey Today</h3>
+            <p>Experience the spiritual journey of a lifetime with Aone Travels. Book now and embark on your pilgrimage to the holy cities of Mecca and Medina.</p>
+            <div class="book-now-btn pt-4">
+              <a class="" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" style="padding: 13px 30px;">BOOKING NOW</a>
+            </div>
+        </div>
+      </section>
+
+
+    <!--Footer Start--> 
+    <div class="foot-line"></div>
+    <div class="container-fluid footer wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+                <!-- <h4 class="mb-4 footer-head">Aone Travels</h4> -->
+                <a class="footer-logo" href="index.html"><img src="img/logo1.png" height="70px"  alt=""></a>
+                <p class="footer-color pt-3">At Aone Travels, we are passionate about curating extraordinary travel experiences that linger in your memories forever. As your trusted travel companion, we pride ourselves on delivering seamless and personalized adventures that cater to every wanderlust-filled soul.</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4 footer-head">Services</h4>
+                <a class="btn btn-link" href="hajj.html">Hajj and Umrah Packages</a>
+                <a class="btn btn-link" href="visa.html">Visa Assistance</a>
+                <a class="btn btn-link" href="accommodation.html">Accommodation Arrangements</a>
+                <a class="btn btn-link" href="spiritual.html">Spiritual Guidance</a>
+                <a class="btn btn-link" href="transportation.html">Transportation Services</a>
+                <a class="btn btn-link" href="educational.html">Educational Workshops</a>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <!-- <h4 class="mb-4 footer-head">Quick Links</h4> -->
+                <h4 class="mb-4 footer-head">Quick Links</h4>
+                <a class="btn btn-link" href="index.html">Home</a>
+                <a class="btn btn-link" href="#about">About Us</a>
+                <a class="btn btn-link" href="#services">Services</a>
+                <a class="btn btn-link" href="gallery.html">Gallery</a>
+                <a class="btn btn-link" href="faq.html">FAQ</a>
+                <a class="btn btn-link" href="contact.html">Contact Us</a>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="mb-4 footer-head">Address</h4>
+                <p class="mb-2 footer-color"><i class="fa fa-map-marker-alt me-3"></i>184 B, Puliyamukku theru,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pettai, Kadayanallur,<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; India - 627 751.</p>
+                <p class="mb-2 footer-color"><i class="fa fa-phone-alt me-3"></i>+91 88257 85472</p>
+                <p class="mb-2 footer-color"><i class="fa fa-phone-alt me-3"></i>+91 81482 93746</p>
+                <!-- <p class="mb-2 footer-color"><i class="fa fa-envelope me-3"></i>Template@gmail.com</p> -->
+                <!-- <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href="" style="border-radius: 100px;"><i class="fab fa-youtube"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-12 text-center mb-3 mb-md-0 footer-color">
+                    &copy; Copyright 2023 <a class="border-bottom" href="index.html">Aone Travels</a> | <a class="border-bottom" href="https://tfamsgroup.com/" target="_blank">POWERED BY TFAMS DIGITAL</a> , All Right Reserved.
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" 
+    aria-hidden="true" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        <div class="modal-dialog modal-dialog-centered modal-md">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-12" style="display: flex;align-items: center;justify-content: center;">
+                                <form class="col-12 row g-3" action="contact.php" name="contactform" 
+                                method="post">
+                                    <div>
+                                        <h4 class="text-center" style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Contact Us</h4>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Name</label>
+                                        <input type="text" name="name" class="form-control" 
+                                        placeholder="Name" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <label for="userName" class="form-label" style="color: black;">Phone</label>
+                                        <input type="text" name="phone" class="form-control" 
+                                        placeholder="Phone" id="userName"
+                                            aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="userName" class="form-label" style="color: black;">Email</label>
+                                        <input type="email" name="email" class="form-control" 
+                                        placeholder="Email"
+                                            id="userName" aria-describedby="emailHelp" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required>
+                                    </div>
+                                        <div class="col-12">
+                                        <label for="exampleInputEmail1" class="form-label" style="color: black;">Message</label>
+                                        <textarea name="comments" placeholder="Enter Your Message"
+                                            class="form-control" id="" rows="2" style="background-color: #f6f7fb;border: 1px solid #f6f7fb;" required></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" style="background-color: #fc7341;color: white;border: 1px solid #fc7341;padding: 8px 20px;border-radius: 3px;">Submit</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-lg-square rounded back-to-top" style="background-color: var(--brand);color: white;" data-aos="zoom-in"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- Float Icons -->
+    <a href="tel:8825785472" class="float">
+        <i class='bx bxs-phone my-float'></i>
+    </a>
+    <a href="https://api.whatsapp.com/send?phone=8825785472&text=I am interested in your services." class="float-2" target="_blank">
+        <i class='fab fa-whatsapp my-float'></i>
+    </a>
+
+    <!-- Template Main JS File -->
+    <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="assets/wow/wow.min.js"></script>
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="assets/slick/slick.min.js"></script>
+    <script src="assets/slick/slick-animation.min.js"></script>
+    <script src="assets/fancybox/jquery.fancybox.min.js"></script>
+    <script src="assets/aos/aos.js"></script>
+    <script src="js/roberto.bundle.js"></script>
+    <script>
+        (function ($) {
+            "use strict";
+            
+            // Initiate the wowjs
+            new WOW().init();
+            
+        })(jQuery);
+    </script>
+    <script>
+        // Back to top button
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 100) {
+                $('.back-to-top').fadeIn('slow');
+            } else {
+                $('.back-to-top').fadeOut('slow');
+            }
+            });
+            $('.back-to-top').click(function () {
+            $('html, body').animate({scrollTop: 0}, 1500, 'easeInOutExpo');
+            return false;
+        });
+    </script>
+    <script>
+        // Animation on scroll
+        window.addEventListener('load', () => {
+            AOS.init({
+            duration: 1000,
+            easing: 'ease-in-out',
+            once: true,
+            mirror: false
+            })
+        });
+    </script>
+</body>
+</html>
